@@ -6,16 +6,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <title>Document</title>
+    <title>Portfolio Example</title>
     <style>
         body {
             background: rgb(76, 79, 106);
             background: linear-gradient(70deg, rgba(76, 79, 106, 1) 0%, rgba(118, 124, 163, 1) 70%);
+            background-size: 400% 400%;
+            animation: animbg 10s ease infinite;
+            height: 100vh;
         }
 
         .parent-content {
@@ -25,6 +25,20 @@
 
         .avatar {
             max-width: 120px;
+        }
+
+        @keyframes animbg {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
         }
     </style>
 </head>
@@ -42,9 +56,9 @@
                         <h5 class="card-title">Data Scientist</h5>
                         <h2 class="m-0">__</h2>
                         <p class="card-text">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quasi odit eos quam
-                            maiores tempora doloremque perferendis inventore vero placeat, nulla dolorum magnam numquam
-                            quia libero temporibus repellendus et ullam!
+                            I am a passionate developer proficient in NLP Machine Learning and Frontend technologies. With
+                            proven record of success in my organization as well as at personal level of projects, I
+                            bring a diligent work ethic, meticulous attention to detail, and excellent organizational skills.
                         </p>
                         <a type="button" href="https://aeykeyzs.github.io/" target="_blank" class="btn btn-dark">
                             <i class="bi bi-cursor-fill"></i>
@@ -52,10 +66,12 @@
                         <a type="button" href="https://github.com/AeyKeyZS" target="_blank" class="btn btn-dark">
                             <i class="bi bi-github"></i>
                         </a>
-                        <a type="button" href="https://www.linkedin.com/in/akshay-kumar-gola/" target="_blank" class="btn btn-dark">
+                        <a type="button" href="https://www.linkedin.com/in/akshay-kumar-gola/" target="_blank"
+                            class="btn btn-dark">
                             <i class="bi bi-linkedin"></i>
                         </a>
-                        <a type="button" href="https://www.youtube.com/@amsnippetzz" target="_blank" class="btn btn-dark">
+                        <a type="button" href="https://www.youtube.com/@amsnippetzz" target="_blank"
+                            class="btn btn-dark">
                             <i class="bi bi-youtube"></i>
                         </a>
                     </div>
